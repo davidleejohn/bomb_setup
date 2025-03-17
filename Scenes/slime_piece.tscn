@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dp7txl15uc1ii"]
+
+[ext_resource type="Script" path="res://Scripts/ice_piece.gd" id="1_66sh0"]
+[ext_resource type="Texture2D" uid="uid://bv07hpltsle5r" path="res://Art/Obstacles/Slime.png" id="2_jwoue"]
+
+[node name="slime_piece" type="Node2D"]
+script = ExtResource("1_66sh0")
+health = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_jwoue")
